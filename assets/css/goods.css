@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /*css for footer*/
 .footer{
     background-color: #f5f5f5;
@@ -36,3 +37,163 @@
     text-align: center;
     justify-content: center;
 }
+/*css for content*/
+.content{
+    
+}
+.main-content{
+    background-color: whitesmoke;
+}
+.container{
+    background-color: white;
+}
+.content .slider .d-block img{
+}
+.content .main-content h5{
+    font-size: 14px;
+    line-height: 17px;
+    margin: 15px;
+    text-decoration: none solid rgba(0,0,0,8);
+    font-weight: 400;
+    margin-left: 110px;
+}
+
+.main-content .slider-text .slider-text-tittle h4{
+    font-size: 24px;
+    font-weight: 500;
+    font-style: lighter;
+    line-height: 36px;
+    text-decoration: none solid rgba(0,0,0,8);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-content .slider-text .slide-text-info{
+    display: flex;
+}
+.main-content .slider-text .slide-text-info h4{
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+    text-decoration: none solid rgba(118,118,118);
+    font-style: lighter;
+    margin-left: 20px;
+}
+.main-content .slider-text .slide-text-price{
+    display: flex;
+} 
+.main-content .slider-text .slide-text-price .before-price{
+    font-size: 14px;
+    text-transform: capitalize;
+    text-decoration: line-through rgba(146,146,146);
+    font-style: lighter;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.main-content .slider-text .slide-text-price .after-price{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36px;
+    text-decoration: none solid rgba(0,0,0,8);
+    font-family: Arial, Helvetica, sans-serif;
+    color: orangered;
+    margin-left: 20px;
+}
+.main-content .slider-text .slide-text-option .delivery{
+    display: flex;
+}
+.main-content .slider-text .slide-text-option .delivery .delivery-tittle{
+    display: flex;
+    margin-left: 20px;
+}
+.main-content .slider-text .slide-text-option .delivery>h4{
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: none solid rgba(118,118,118);
+    font-style: lighter;
+    margin-left: 20px;
+    margin-top: 5px;
+    color: grey;
+}
+.main-content .slider-text .slide-text-option .delivery .free1{
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: lighter;
+    line-height: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}.main-content .slider-text .slide-text-option .delivery .free2{
+    font-size: 15px;
+    font-weight: 500;
+    font-style: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none solid rgba(0,0,0,8);
+}
+.main-content .slider-text .slide-text-option .delivery-to{
+    display: flex;
+    margin-left: 147px;
+}
+.main-content .slider-text .slide-text-option .delivery-to h4{
+    font-size: 15px;
+    font-weight: 500;
+    font-style: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none solid rgba(0,0,0,8);
+}
+.main-container{
+    width: 55%;
+    max-width: 250px;
+}
+.select-item{
+    width: 70%;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 15px;
+    position: relative;
+}
+.select-item > label {
+    display: block;
+    font-size: 18px;
+}
+.select-item > select {
+    margin-top: 5px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 36px;
+    height: 36px;
+    border-radius: 5px;
+}
+.select-item > span{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    right: 22px;
+    top: 38px;
+    display: none;
+    z-index: 5;
+}
+.select-item > span > img{
+    width: 100%;
+    height: 100%;
+} 
+@media screen and (max-width: 768px) {
+    /*content*/
+    .content .main-content h5{
+        margin-left: 20px;
+    }
+    .main-content .slider-text .slider-text-tittle h4{
+        font-size: 12px;
+        font-weight: 200;
+        font-style: lighter;
+        line-height: 14px;
+        text-decoration: none solid rgba(0,0,0,8);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .main-content .slider-text .slide-text-info h4{
+        font-size: 9px;
+        line-height: 10px;
+        text-transform: capitalize;
+        text-decoration: none solid rgba(118,118,118);
+        font-style: lighter;
+        margin-left: 10px;
+    }
+}
+    
