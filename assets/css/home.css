@@ -1,3 +1,39 @@
+/* css for header*/
+.logo-header{
+    width: 162px;
+    height: 100px;
+}
+.topnav{
+    background-color: orangered;
+}
+.box{
+    width:840px;
+    background-color: white;
+    height:40px;
+}
+.searchbar{
+    align-items : center;
+}
+input{
+    border:none;
+    outline:none;
+    width:754px;
+    height:34px;
+}
+.icon-shopping{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
 /*css for footer*/
 .footer{
     background-color: #f5f5f5;
