@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 /*css for footer*/
 .footer{
     background-color: #f5f5f5;
@@ -113,6 +118,7 @@
     margin-top: 5px;
     color: grey;
 }
+
 .main-content .slider-text .slide-text-option .delivery .free1{
     margin-top: 15px;
     font-size: 15px;
@@ -120,7 +126,8 @@
     font-style: lighter;
     line-height: 10px;
     font-family: Arial, Helvetica, sans-serif;
-}.main-content .slider-text .slide-text-option .delivery .free2{
+}
+.main-content .slider-text .slide-text-option .delivery .free2{
     font-size: 15px;
     font-weight: 500;
     font-style: lighter;
@@ -141,9 +148,10 @@
 .main-container{
     width: 55%;
     max-width: 250px;
+    
 }
 .select-item{
-    width: 70%;
+    width: 100%;
     font-family: 'Montserrat', sans-serif;
     margin-left: 15px;
     position: relative;
@@ -153,7 +161,6 @@
     font-size: 18px;
 }
 .select-item > select {
-    margin-top: 5px;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -171,9 +178,36 @@
     z-index: 5;
 }
 .select-item > span > img{
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
 } 
+input {
+    display: inline-block;
+    width: 10%;
+}
+.delivery .btn-increment-and-decrement{
+    margin-left: 40px
+}
+.delivery button, input{
+    /* Green */
+    border: none;
+}
+.buy button{
+    background-color: orangered;
+    border: none;
+    color: white;
+    padding: 0 20px 0 20px;
+    text-align: center;
+    text-decoration: none rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 16px;
+    height: 48px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.buy button:hover{
+    background-color: #d15e47;
+}
 @media screen and (max-width: 768px) {
     /*content*/
     .content .main-content h5{
@@ -194,6 +228,63 @@
         text-decoration: none solid rgba(118,118,118);
         font-style: lighter;
         margin-left: 10px;
+    }
+    .main-content .slider-text .slide-text-option .delivery>h4{
+        font-size: 12px;
+        text-transform: capitalize;
+        text-decoration: none solid rgba(118,118,118);
+        font-style: lighter;
+        margin-left: 20px;
+        margin-top: 5px;
+        color: grey;
+    }
+    .main-content .slider-text .slide-text-option .delivery .free1{
+        margin-top: 15px;
+        font-size: 12px;
+        font-weight: 500;
+        font-style: lighter;
+        line-height: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .main-content .slider-text .slide-text-option .delivery .free2{
+        font-size: 12px;
+        font-weight: 500;
+        font-style: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none solid rgba(0,0,0,8);
+    }
+    .main-content .slider-text .slide-text-option .delivery-to{
+        display: flex;
+        margin-left: 80px;
+    }
+    .main-content .slider-text .slide-text-option .delivery-to h4{
+        font-size: 12px;
+        font-weight: 500;
+        font-style: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none solid rgba(0,0,0,8);
+    }
+    .main-container{
+        display: flex;
+    }
+    input {
+        display: inline-block;
+        width: 10%;
+    }
+    .delivery .btn-increment-and-decrement{
+        margin-left: 25px
+    }
+    .buy button{
+        background-color: orangered; 
+        border: none;
+        color: white;
+        padding: 0 20px 0 20px;
+        text-align: center;
+        text-decoration: none rgb(255, 255, 255);
+        display: inline-block;
+        font-size: 16px;
+        height: 48px;
+        margin-left: 70px;
     }
 }
     

@@ -42,3 +42,20 @@ document.querySelector('#district-town').addEventListener("change", async () => 
     document.querySelector('#ward-commune').innerHTML = outputCommune;
     document.querySelector('.ward-commune-select > span').style.display = "none";
 })
+
+
+//Incre and Decre goods
+const btnAdd = document.querySelector('#add');
+const btnSubtract = document.querySelector('#subtract');
+const increAndDecre = document.querySelector('.incre-and-decre');
+
+//btnAdd disable when increAndDecre is 9
+btnAdd.addEventListener('click', () => {
+    increAndDecre.value = parseInt(increAndDecre.value) + 1;
+});
+
+btnSubtract.addEventListener('click', () => {   
+    if (increAndDecre.value > 1){
+        increAndDecre.value = parseInt(increAndDecre.value) - 1;
+    }
+});
