@@ -1,4 +1,5 @@
 // get api city in Vietnam
+//Sample source code: https://codepen.io/sangram143/pen/wvBmZRe
 const apiUrl = "https://sheltered-anchorage-60344.herokuapp.com";
 const apiEndpointDistrict = apiUrl + '/district/?idProvince=';
 const apiEndpointCommune = apiUrl + '/commune/?idDistrict=';

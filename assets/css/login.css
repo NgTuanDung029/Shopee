@@ -1,0 +1,91 @@
+.header-login{
+    margin-top: 10px;
+    display: flex;
+}
+.header-login img{
+    margin-left: 200px;
+    width:180px;
+}
+.header-login h2{
+   font-size: 24px;
+   line-height: 28px;
+   text-decoration: none solid (34,34,34);
+   margin-top: 23px;
+}
+.content{
+    margin-top: 20px;
+    background-color: #f34624
+
+}
+.content .container{
+    background-color: #f34624
+}
+.content .container .form{
+    background-color: white;
+    border-radius: 5px;
+}
+.content .form .form-item{
+    margin: 15px;
+}
+.content .form > h4{
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none solid (34,34,34);
+    padding-top: 20px;
+    margin-left: 30px;
+}
+.content .form .form-item input{
+    width: 95%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 15px;
+}
+.content .form .form-item .register{
+    width: 95%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 15px;
+    background-color: #EE4D2D;
+    color: white;
+}
+@media screen and (max-width: 768px){
+    .header-login img{
+        margin-left: 40px;
+        width: 150px;
+    }
+    .header-login h2{
+        font-size: 20px;
+        line-height: 24px;
+        text-decoration: none solid (34,34,34);
+        margin-top: 20px;
+    }
+    .content .container img{
+        width: 100%;
+    }
+    .content .form > h4{
+        font-size: 20px;
+        line-height: 24px;
+        text-decoration: none solid (34,34,34);
+        padding-top: 20px;
+        margin-top: 20px
+    }
+    .content .form .form-item input{
+        width:85%;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin: 10px;
+    }
+    .content .form .form-item .register{
+        width: 85%;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin: 10px;
+        background-color: #EE4D2D;
+        color: white;
+    }
+}
+    
