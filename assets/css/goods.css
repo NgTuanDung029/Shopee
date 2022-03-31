@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
 /*css for footer*/
 .footer{
     background-color: #f5f5f5;
@@ -113,6 +121,7 @@
     margin-top: 5px;
     color: grey;
 }
+
 .main-content .slider-text .slide-text-option .delivery .free1{
     margin-top: 15px;
     font-size: 15px;
@@ -120,7 +129,8 @@
     font-style: lighter;
     line-height: 10px;
     font-family: Arial, Helvetica, sans-serif;
-}.main-content .slider-text .slide-text-option .delivery .free2{
+}
+.main-content .slider-text .slide-text-option .delivery .free2{
     font-size: 15px;
     font-weight: 500;
     font-style: lighter;
@@ -141,9 +151,10 @@
 .main-container{
     width: 55%;
     max-width: 250px;
+    
 }
 .select-item{
-    width: 70%;
+    width: 100%;
     font-family: 'Montserrat', sans-serif;
     margin-left: 15px;
     position: relative;
@@ -153,7 +164,6 @@
     font-size: 18px;
 }
 .select-item > select {
-    margin-top: 5px;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -171,12 +181,98 @@
     z-index: 5;
 }
 .select-item > span > img{
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
 } 
+input {
+    display: inline-block;
+    width: 10%;
+}
+.delivery .btn-increment-and-decrement{
+    margin-left: 40px
+}
+.delivery button, input{
+    /* Green */
+    border: none;
+}
+.buy button{
+    background-color: orangered;
+    border: none;
+    color: white;
+    padding: 0 20px 0 20px;
+    text-align: center;
+    text-decoration: none rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 16px;
+    height: 48px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.buy button:hover{
+    background-color: #d15e47;
+}
+.second-content-shop{
+    display: flex;
+}
+.second-content-shop .shop-name .name{
+    font-size: 16px;
+    line-height: 13px;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+.second-content-shop .shop-name .status{
+    font-size: 14px;
+    line-height: 13px;
+    text-transform: capitalize;
+    font-weight: lighter;
+}
+.second-content-shop .shop-name button{
+    background-color: rgb(241, 236, 234);
+    border: none;
+    color: orangered;
+    font-size: 16px;
+    height: 30px;
+    border: 1px solid orangered;
+}
+.shop-evaluate{
+    margin-top: 40px;
+}
+.third-content h2{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px;
+    text-decoration: none solid rgba(0,0,0,0,87);
+    text-transform: capitalize;
+    /* font-style: lighter; */
+}
+.third-content p{
+    font-size: 14px;
+    padding-bottom: 5px;
+    /* text-decoration: none solid rgba(0,0,0,8); */
+}
+.four-content h2{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    margin-top: 15px;
+    font-style: Lighter;
+}
+.four-content p{
+    font-size: 12px;
+    text-decoration: none solid rgba(0,0,0,0.54);
+}
 @media screen and (max-width: 768px) {
     /*content*/
     .content .main-content h5{
+        /* font-size: 14px;
+        line-height: 17px;
+        margin: 15px;
+        text-decoration: none solid rgba(0,0,0,8);
+        font-weight: 400; */
+        margin-left: 10px;
+    }
+    .content .main-content h4{
         margin-left: 20px;
     }
     .main-content .slider-text .slider-text-tittle h4{
@@ -188,12 +284,91 @@
         font-family: Arial, Helvetica, sans-serif;
     }
     .main-content .slider-text .slide-text-info h4{
-        font-size: 9px;
+        font-size: 8px;
         line-height: 10px;
         text-transform: capitalize;
         text-decoration: none solid rgba(118,118,118);
         font-style: lighter;
-        margin-left: 10px;
+        margin-left: 20px;
+    }
+    .main-content .slider-text .slide-text-option .delivery>h4{
+        font-size: 12px;
+        text-transform: capitalize;
+        text-decoration: none solid rgba(118,118,118);
+        font-style: lighter;
+        margin-left: 20px;
+        margin-top: 5px;
+        color: grey;
+    }
+    .main-content .slider-text .slide-text-option .delivery .free1{
+        margin-top: 8px;
+        font-size: 12px;
+        font-weight: 500;
+        font-style: lighter;
+        line-height: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .main-content .slider-text .slide-text-option .delivery .free2{
+        font-size: 12px;
+        font-weight: 500;
+        font-style: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none solid rgba(0,0,0,8);
+    }
+    .main-content .slider-text .slide-text-option .delivery-to{
+        display: flex;
+        margin-left: 80px;
+    }
+    .main-content .slider-text .slide-text-option .delivery-to h4{
+        font-size: 12px;
+        font-weight: 500;
+        font-style: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none solid rgba(0,0,0,8);
+    }
+    .main-container{
+        display: flex;
+    }
+    input {
+        display: inline-block;
+        width: 10%;
+    }
+    .delivery .btn-increment-and-decrement{
+        margin-left: 50px
+    }
+    .buy button{
+        background-color: orangered; 
+        border: none;
+        color: white;
+        padding: 0 20px 0 20px;
+        text-align: center;
+        text-decoration: none rgb(255, 255, 255);
+        display: inline-block;
+        font-size: 16px;
+        height: 48px;
+        margin-left: 70px;
+    }
+    .second-content .second-content-shop .shop-img img{
+        width: 100px;
+    }
+    .second-content-shop .shop-name button{
+        background-color: rgb(241, 236, 234);
+        color: orangered;
+        font-size: 16px;
+        width: 120px;
+        height: 35px;
+        border: 1px solid orangered;
+        margin-top: 1px;
+    }
+    .shop-evaluate{
+        display: none;
+    }
+    .button-shop{
+        display: flex;
+    }
+    .four-content img{
+        max-width: 100%;
+        width: 100%;
     }
 }
     
