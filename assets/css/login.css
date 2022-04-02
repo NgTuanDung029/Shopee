@@ -1,3 +1,4 @@
+
 .header-login{
     margin-top: 10px;
     display: flex;
@@ -34,6 +35,12 @@
     padding-top: 20px;
     margin-left: 30px;
 }
+.content .form > span{
+    font-size: 15px;
+    line-height: 14px;
+    color: #f34624;
+    margin-left: 30px;
+}
 .content .form .form-item input{
     width: 95%;
     height: 40px;
@@ -41,7 +48,14 @@
     border: 1px solid #ccc;
     margin: 15px;
 }
-.content .form .form-item .register{
+.content .form h5{
+    font-size: 15px;
+    line-height: 14px;
+    color: #f34624;
+    margin-left: 30px;
+    padding-bottom: 10px;
+}
+.content .form .form-item .btn-login, .btn-Register{
     width: 95%;
     height: 40px;
     border-radius: 5px;
@@ -78,7 +92,7 @@
         border: 1px solid #ccc;
         margin: 10px;
     }
-    .content .form .form-item .register{
+    .content .form .form-item .btn-login, .btn-Register{
         width: 85%;
         height: 40px;
         border-radius: 5px;

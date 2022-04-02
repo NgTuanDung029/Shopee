@@ -11,7 +11,7 @@ var users = [
     },
 ]
 
-
+var loginError = document.querySelector(".loginError");
 function Login() {
     event.preventDefault();
     var username = document.getElementById("name").value;
@@ -22,12 +22,14 @@ function Login() {
             window.location.href = "#";
             
         } else {
-            window.location.href = "#";
+            window.location.href = "home.html";
         }
     } else {
-        alert("Sai tên tài khoản hoặc mật khẩu. Vui lòng nhập lại");
+        loginError.innerHTML = "Tài khoản hoặc mật khẩu không đúng";
     }
 }
+
+//code sample: demo_pr
 function check_user(username, password, users) {
     for (i in users) {
         var user = users[i];
@@ -37,3 +39,4 @@ function check_user(username, password, users) {
     }
     return false;
 }
+
