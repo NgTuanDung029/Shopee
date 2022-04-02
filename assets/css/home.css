@@ -1,10 +1,10 @@
 /* css for header*/
 .logo-header{
-    width: 162px;
-    height: 100px;
+    width: 160px;
+    height: 140px;
 }
-.nav{
-    background-color: orangered;
+.header{
+    background-color: #e75205;
 }
  .nav-link{
     color:white;
@@ -24,20 +24,63 @@
     color:white;
     font-size: 20px;
 }
-
-/* css for Contene */
-/* Menu */
-.contain{
-    margin-top: 30px;
+/* css for Content */
+/* Menu first-content*/
+.content{
+    background-color: whitesmoke;
+}
+.Menu-first-content{
+    display:flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.first-content{
+    background-color: white;
 }
 .slider{
     width:800px;
 }
-.Menu{
-    margin-top: 30px;
+/* Second-content */
+.Second-content{
+    background-color: white;
 }
-
-
+.title-second-content{
+    font-size:20px;
+    color: rgba(0,0,0,.54);
+    font-weight: 500;
+    font-family: Helvetica;
+}
+/* Third-content */
+.Third-content{
+    margin-top: 30px;
+    background-color: white;
+}
+.text-third-content{
+    display:flex;
+}
+.text1{
+    position: relative;
+    padding: 0.9375rem 2.875rem;
+    flex: 0 0 auto;
+    height: 3.75rem;
+    font-size: 1rem;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+.text-header-third-content{
+    color: rgb(238, 77, 45);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.text2{
+    position: relative;
+    padding: 0.9375rem 2.875rem;
+    flex: 0 0 auto;
+    height: 3.75rem;
+    font-size: 1rem;
+    font-weight: 600;
+    box-sizing: border-box;
+}
 
 
 
