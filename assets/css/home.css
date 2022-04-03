@@ -1,13 +1,17 @@
 /* css for header*/
+.header{
+    width:100%;
+    background-color: #e75205;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
 .logo-header{
     margin-left: 82px;
     width: 70px;
     height: 80px;
-}
-.header{
-    width:100%;
-    background-color: #e75205;
-    top:0px;
 }
  .nav-link{
     color:white;
@@ -19,7 +23,15 @@
     height:45px;
 }
 .search-button-header{
-    
+    color: white;
+    background-color: #e75205;
+    font-size: 25px;
+    margin-top: 5px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+.search-button-header:hover{
+    color: rgb(211, 180, 180);
 }
 .icon-shopping-header{
     margin-top:35px;
@@ -29,10 +41,15 @@
     color:white;
     font-size: 20px;
 }
+
 /* css for Content */
 /* Menu first-content*/
 .content{
     background-color: whitesmoke;
+    margin-top: 150px;
+}
+.carousel-indicators, .carousel-control-prev{
+    display: none;
 }
 .Menu-first-content{
     display:flex;
@@ -146,4 +163,43 @@
 .footer-content {
     text-align: center;
     justify-content: center;
+}
+/*responsive*/
+@media screen and (max-width: 768px){
+    .logo-header{
+        margin-left: 20px;
+        width: 50px;
+        height: 80px;
+    }
+    .header{
+        width:100%;
+        background-color: #e75205;
+        top:0px;
+    }
+     .nav-link{
+        color:white;
+    }
+    .searchbar{
+        margin-left:10px;
+        margin-top:35px;
+        width:240px;
+        height: 25px;
+    }
+    .search-button-header{
+        color: white;
+        background-color: #e75205;
+        font-size: 25px;
+        margin-top: 5px;
+        cursor: pointer;
+        display: block;
+        padding-left: 10px;
+    }
+    .icon-shopping-header{
+        margin-top:35px;
+    }
+    .fa-cart-shopping{
+        margin-left:25px;
+        color:white;
+        font-size: 20px;
+    }
 }

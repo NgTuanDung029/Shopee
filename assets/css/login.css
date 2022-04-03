@@ -15,11 +15,12 @@
 }
 .content{
     margin-top: 20px;
-    background-color: #f34624
+    background-color: #f34624;
 
 }
 .content .container{
-    background-color: #f34624
+    background-color: #f34624;
+    padding-bottom: 30px;
 }
 .content .container .form{
     background-color: white;
