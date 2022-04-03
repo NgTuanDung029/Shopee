@@ -1,10 +1,13 @@
 /* css for header*/
 .logo-header{
-    width: 160px;
-    height: 140px;
+    margin-left: 82px;
+    width: 70px;
+    height: 80px;
 }
 .header{
+    width:100%;
     background-color: #e75205;
+    top:0px;
 }
  .nav-link{
     color:white;
@@ -15,7 +18,9 @@
     width:840px;
     height:45px;
 }
-
+.search-button-header{
+    
+}
 .icon-shopping-header{
     margin-top:35px;
 }
@@ -33,12 +38,27 @@
     display:flex;
     justify-content: center;
     text-decoration: none;
+    list-style-type: none;
+    padding-left: 0px;
 }
 .first-content{
     background-color: white;
 }
 .slider{
     width:800px;
+}
+.elem-Menu-1{
+    justify: center;
+    border: none;
+}
+.img-Menu-first-content-1{
+    margin-left:38px;
+    width:48px;
+    height:48px;
+}
+.card-text-first-content{
+    font-size: 12px;
+    text-align: center;
 }
 /* Second-content */
 .Second-content{
