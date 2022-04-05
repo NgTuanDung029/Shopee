@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="icon" href="/assets/img/Home/shopee logo.jpg">
+    <link rel="stylesheet" href="/assets/css/home.css">
+    <link rel="stylesheet" href="/assets/css/goods.css">
+    <title>Shopee</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--Header-->
+    <div class="header">
+        <ul class="nav justify-content">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Giới thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gợi ý</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ">Tin tức</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ">Liên hệ</a>
+                </li>
+                <div class="login">
+                <li class="nav-item">
+                    <a class="nav-link ">Đăng nhập</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ">Đăng ký</a>
+                </li>
+            </div>
+            </ul>
+        </ul>
+
+        <ul class="search-header nav">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><img class="logo-header"
+                        src="/assets/img/Home/logo-header.png" alt=""></a>
+            </li>
+            <li class="searchbar nav-item">
+                <form class="d-flex">
+                    <input class="form-control me-2 " type="search" placeholder="Lương về tay - Làm đẹp ngay"
+                        aria-label="Search">
+                    <i class="search-button-header fas fa-search-location"></i>
+                    <!-- Dungkey sửa button search chỗ này -->
+            </li>
+            <li class="icon-shopping-header nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </li>
+        </ul>
+    </div>
+    <!--Content-->
+    <div class="content">
+        <!-- First content -->
+        <div class=" first-content container px-3">
+            <div class="row ">
+                <div class="slider col ">
+                    <div class="p-3 ">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                    aria-label="Slide 4"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/Home/slider1.png" width="488" height="288"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/Home/slider2.png" width="488" height="288"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/Home/slider3.jpg" width="488" height="288"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/Home/slider4.png" width="488" height="288"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-ads col">
+                    <div class="p-3 ">
+                        <img src="assets/img/Home/ads.jpg" width="488" height="288" alt="">
+                    </div>
+                </div>
+            </div>
+            <ul class="Menu-first-content">
+
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <li>
+                        <div class="elem-Menu-1 card" style="width: 125px; height: 106px; ">
+                            <img src="assets/img/Home/img-Menu-first-content-1.png"
+                                class="img-Menu-first-content-1 card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text-first-content">Bảo vệ sức khỏe</p>
+                            </div>
+                        </div>
+                    </li>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <li>
+                        <div class="elem-Menu-1 card" style="width: 125px; height: 106px; ">
+                            <img src="assets/img/Home/img-Menu-first-content-2.png"
+                                class="img-Menu-first-content-1 card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text-first-content">Gì Cũng Rẻ - Mua Là Freeship</p>
+                            </div>
+                        </div>
+                    </li>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <li>
+                        <div class="elem-Menu-1 card" style="width: 125px; height: 106px; ">
+                            <img src="assets/img/Home/img-Menu-first-content-3.png"
+                                class="img-Menu-first-content-1 card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text-first-content">Khung Giờ Săn Sale</p>
+                            </div>
+                        </div>
+                    </li>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <li>
+                        <div class="elem-Menu-1 card" style="width: 125px; height: 106px; ">
+                            <img src="assets/img/Home/img-Menu-first-content-4.png"
+                                class="img-Menu-first-content-1 card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text-first-content">Freeship Xtra</p>
+                            </div>
+                        </div>
+                    </li>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <li>
+                        <div class="elem-Menu-1 card" style="width: 125px; height: 106px; ">
+                            <img src="assets/img/Home/img-Menu-first-content-5.png"
+                                class="img-Menu-first-content-1 card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text-first-content">Hoàn Xu Xtra</p>
+                            </div>
+                        </div>
+                    </li>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <li>
+                        <div class="elem-Menu-1 card" style="width: 125px; height: 106px; ">
+                            <img src="assets/img/Home/img-Menu-first-content-6.png"
+                                class="img-Menu-first-content-1 card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text-first-content">Hàng Hiệu -50%</p>
+                            </div>
+                        </div>
+                    </li>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <li>
+                        <div class="elem-Menu-1 card" style="width: 125px; height: 106px; ">
+                            <img src="assets/img/Home/img-Menu-first-content-7.png"
+                                class="img-Menu-first-content-1 card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text-first-content">Hàng Quốc Tế</p>
+                            </div>
+                        </div>
+                    </li>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <li>
+                        <div class="elem-Menu-1 card" style="width: 125px; height: 106px; ">
+                            <img src="assets/img/Home/img-Menu-first-content-8.png"
+                                class="img-Menu-first-content-1 card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text-first-content">Deal Sốc Từ 1K</p>
+                            </div>
+                        </div>
+                    </li>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <li>
+                        <div class="elem-Menu-1 card" style="width: 125px; height: 106px; ">
+                            <img src="assets/img/Home/img-Menu-first-content-9.png"
+                                class="img-Menu-first-content-1 card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text-first-content">Nạp Thẻ & Dịch Vụ</p>
+                            </div>
+                        </div>
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <!--second-content-->
+        <div class="Second-content container">
+            <h1 class="title-second-content">Danh mục</h1>
+            <ul class="second-content-list-group">
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <li class="second-content-list-group-item">
+                        <div class="elem-Menu-2 card" style="width: 120px; height: 150px; ">
+                            <img src="assets/img/Home/img-Menu-second-content-1.png"
+                                class="img-Menu-second-content-1 card-img-top" alt="...">
+                            <p class="card-text-second-content">Thời Trang Nam</p>
+                        </div>
+                    </li>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <li class="second-content-list-group-item">
+                        <div class="elem-Menu-2 card" style="width: 120px; height: 150px; ">
+                            <img src="assets/img/Home/img-Menu-second-content-2.png"
+                                class="img-Menu-second-content-1 card-img-top" alt="...">
+                            <p class="card-text-second-content">Điện Thoại & Phụ Kiện</p>
+                        </div>
+                    </li>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <li class="second-content-list-group-item">
+                        <div class="elem-Menu-2 card" style="width: 120px; height: 150px; ">
+                            <img src="assets/img/Home/img-Menu-second-content-3.png"
+                                class="img-Menu-second-content-1 card-img-top" alt="...">
+                            <p class="card-text-second-content">Thiết Bị Điện Tử</p>
+                        </div>
+                    </li>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <li class="second-content-list-group-item">
+                        <div class="elem-Menu-2 card" style="width: 120px; height: 150px; ">
+                            <img src="assets/img/Home/img-Menu-second-content-4.png"
+                                class="img-Menu-second-content-1 card-img-top" alt="...">
+                            <p class="card-text-second-content">Máy Tính & Laptop</p>
+                        </div>
+                    </li>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <li class="second-content-list-group-item">
+                        <div class="elem-Menu-2 card" style="width: 120px; height: 150px; ">
+                            <img src="assets/img/Home/img-Menu-second-content-5.png"
+                                class="img-Menu-second-content-1 card-img-top" alt="...">
+                            <p class="card-text-second-content">Máy Ảnh & Máy Quay Phim</p>
+                        </div>
+                    </li>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <li class="second-content-list-group-item">
+                        <div class="elem-Menu-2 card" style="width: 120px; height: 150px; ">
+                            <img src="assets/img/Home/img-Menu-second-content-6.png"
+                                class="img-Menu-second-content-1 card-img-top" alt="...">
+                            <p class="card-text-second-content">Đồng Hồ</p>
+                        </div>
+                    </li>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <li class="second-content-list-group-item">
+                        <div class="elem-Menu-2 card" style="width: 120px; height: 150px; ">
+                            <img src="assets/img/Home/img-Menu-second-content-7.png"
+                                class="img-Menu-second-content-1 card-img-top" alt="...">
+                            <p class="card-text-second-content">Giày Dép Nam</p>
+                        </div>
+                    </li>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <li class="second-content-list-group-item">
+                        <div class="elem-Menu-2 card" style="width: 120px; height: 150px; ">
+                            <img src="assets/img/Home/img-Menu-second-content-8.png"
+                                class="img-Menu-second-content-1 card-img-top" alt="...">
+                            <p class="card-text-second-content">Thiết Bị Điện Gia Dụng</p>
+                        </div>
+                    </li>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <li class="second-content-list-group-item">
+                        <div class="elem-Menu-2 card" style="width: 120px; height: 150px; ">
+                            <img src="assets/img/Home/img-Menu-second-content-9.png"
+                                class="img-Menu-second-content-1 card-img-top" alt="...">
+                            <p class="card-text-second-content">Thể Thao & Du Lịch</p>
+                        </div>
+                    </li>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <li class="second-content-list-group-item">
+                        <div class="elem-Menu-2 card" style="width: 120px; height: 150px; ">
+                            <img src="assets/img/Home/img-Menu-second-content-10.png"
+                                class="img-Menu-second-content-1 card-img-top" alt="...">
+                            <p class="card-text-second-content">Ô Tô & Xe Máy & Xe Đạp</p>
+                        </div>
+                    </li>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <li class="second-content-list-group-item">
+                        <div class="elem-Menu-2 card" style="width: 120px; height: 150px; ">
+                            <img src="assets/img/Home/img-Menu-second-content-11.png"
+                                class="img-Menu-second-content-1 card-img-top" alt="...">
+                            <p class="card-text-second-content">Thời Trang Nữ</p>
+                        </div>
+                    </li>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <li class="second-content-list-group-item">
+                        <div class="elem-Menu-2 card" style="width: 120px; height: 150px; ">
+                            <img src="assets/img/Home/img-Menu-second-content-12.png"
+                                class="img-Menu-second-content-1 card-img-top" alt="...">
+                            <p class="card-text-second-content">Mẹ & Bé</p>
+                        </div>
+                    </li>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <li class="second-content-list-group-item">
+                        <div class="elem-Menu-2 card" style="width: 120px; height: 150px; ">
+                            <img src="assets/img/Home/img-Menu-second-content-13.png"
+                                class="img-Menu-second-content-1 card-img-top" alt="...">
+                            <p class="card-text-second-content">Nhà Cửa & Đời Sống</p>
+                        </div>
+                    </li>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <li class="second-content-list-group-item">
+                        <div class="elem-Menu-2 card" style="width: 120px; height: 150px; ">
+                            <img src="assets/img/Home/img-Menu-second-content-14.png"
+                                class="img-Menu-second-content-1 card-img-top" alt="...">
+                            <p class="card-text-second-content">Sắc Đẹp</p>
+                        </div>
+                    </li>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <li class="second-content-list-group-item">
+                        <div class="elem-Menu-2 card" style="width: 120px; height: 150px; ">
+                            <img src="assets/img/Home/img-Menu-second-content-15.png"
+                                class="img-Menu-second-content-1 card-img-top" alt="...">
+                            <p class="card-text-second-content">Sức Khỏe</p>
+                        </div>
+                    </li>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <li class="second-content-list-group-item">
+                        <div class="elem-Menu-2 card" style="width: 120px; height: 150px; ">
+                            <img src="assets/img/Home/img-Menu-second-content-16.png"
+                                class="img-Menu-second-content-1 card-img-top" alt="...">
+                            <p class="card-text-second-content">Giày Dép Nữ</p>
+                        </div>
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <!-- Third content -->
+        <div class="Third-content container">
+            <div class="text-third-content">
+                <span class="text1">
+                    <h1 class="text-header-third-content">Gợi ý hôm nay</h1>
+                </span>
+                <span class="text2"><img src="https://cf.shopee.vn/file/2e780fb0871808d7368408859ad62525"
+                        style="width: auto; height: 1.25rem;"></span>
+            </div>
+            <div class="third-content-list-group">
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <div class="third-content-list-group-item">
+                        <div class="elem-Menu-3 card" style="width: 190px; height: 288px; ">
+                            <img src="assets/img/Home/img-Menu-third-content-1.jpg"
+                                class="img-Menu-third-content-1 card-img-top" alt="...">
+                            <div class="card-text-third-content">Giày Sandal nữ cao gót 5p phối xếp ly cực xinh trẻ
+                                trung, Giày quai
+                                hậu
+                                nữ xăng-đan mẫu mới cực dễ phối đồ</div>
+                            <div class="box-price">
+                                <div class="price">
+                                    <span class="_VND">₫</span>
+                                    <span class="_tien">109.000</span>
+                                </div>
+                                <div class="_soluong">Đã bán 100</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <div class="third-content-list-group-item">
+                        <div class="elem-Menu-3 card" style="width: 190px; height: 288px; ">
+                            <img src="assets/img/Home/img-Menu-third-content-1.jpg"
+                                class="img-Menu-third-content-1 card-img-top" alt="...">
+                            <div class="card-text-third-content">Giày Sandal nữ cao gót 5p phối xếp ly cực xinh trẻ
+                                trung, Giày quai
+                                hậu
+                                nữ xăng-đan mẫu mới cực dễ phối đồ</div>
+                            <div class="box-price">
+                                <div class="price">
+                                    <span class="_VND">₫</span>
+                                    <span class="_tien">109.000</span>
+                                </div>
+                                <div class="_soluong">Đã bán 100</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <div class="third-content-list-group-item">
+                        <div class="elem-Menu-3 card" style="width: 190px; height: 288px; ">
+                            <img src="assets/img/Home/img-Menu-third-content-1.jpg"
+                                class="img-Menu-third-content-1 card-img-top" alt="...">
+                            <div class="card-text-third-content">Giày Sandal nữ cao gót 5p phối xếp ly cực xinh trẻ
+                                trung, Giày quai
+                                hậu
+                                nữ xăng-đan mẫu mới cực dễ phối đồ</div>
+                            <div class="box-price">
+                                <div class="price">
+                                    <span class="_VND">₫</span>
+                                    <span class="_tien">109.000</span>
+                                </div>
+                                <div class="_soluong">Đã bán 100</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <div class="third-content-list-group-item">
+                        <div class="elem-Menu-3 card" style="width: 190px; height: 288px; ">
+                            <img src="assets/img/Home/img-Menu-third-content-1.jpg"
+                                class="img-Menu-third-content-1 card-img-top" alt="...">
+                            <div class="card-text-third-content">Giày Sandal nữ cao gót 5p phối xếp ly cực xinh trẻ
+                                trung, Giày quai
+                                hậu
+                                nữ xăng-đan mẫu mới cực dễ phối đồ</div>
+                            <div class="box-price">
+                                <div class="price">
+                                    <span class="_VND">₫</span>
+                                    <span class="_tien">109.000</span>
+                                </div>
+                                <div class="_soluong">Đã bán 100</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <div class="third-content-list-group-item">
+                        <div class="elem-Menu-3 card" style="width: 190px; height: 288px; ">
+                            <img src="assets/img/Home/img-Menu-third-content-1.jpg"
+                                class="img-Menu-third-content-1 card-img-top" alt="...">
+                            <div class="card-text-third-content">Giày Sandal nữ cao gót 5p phối xếp ly cực xinh trẻ
+                                trung, Giày quai
+                                hậu
+                                nữ xăng-đan mẫu mới cực dễ phối đồ</div>
+                            <div class="box-price">
+                                <div class="price">
+                                    <span class="_VND">₫</span>
+                                    <span class="_tien">109.000</span>
+                                </div>
+                                <div class="_soluong">Đã bán 100</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <div class="third-content-list-group-item">
+                        <div class="elem-Menu-3 card" style="width: 190px; height: 288px; ">
+                            <img src="assets/img/Home/img-Menu-third-content-1.jpg"
+                                class="img-Menu-third-content-1 card-img-top" alt="...">
+                            <div class="card-text-third-content">Giày Sandal nữ cao gót 5p phối xếp ly cực xinh trẻ
+                                trung, Giày quai
+                                hậu
+                                nữ xăng-đan mẫu mới cực dễ phối đồ</div>
+                            <div class="box-price">
+                                <div class="price">
+                                    <span class="_VND">₫</span>
+                                    <span class="_tien">109.000</span>
+                                </div>
+                                <div class="_soluong">Đã bán 100</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <div class="third-content-list-group-item">
+                        <div class="elem-Menu-3 card" style="width: 190px; height: 288px; ">
+                            <img src="assets/img/Home/img-Menu-third-content-1.jpg"
+                                class="img-Menu-third-content-1 card-img-top" alt="...">
+                            <div class="card-text-third-content">Giày Sandal nữ cao gót 5p phối xếp ly cực xinh trẻ
+                                trung, Giày quai
+                                hậu
+                                nữ xăng-đan mẫu mới cực dễ phối đồ</div>
+                            <div class="box-price">
+                                <div class="price">
+                                    <span class="_VND">₫</span>
+                                    <span class="_tien">109.000</span>
+                                </div>
+                                <div class="_soluong">Đã bán 100</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <div class="third-content-list-group-item">
+                        <div class="elem-Menu-3 card" style="width: 190px; height: 288px; ">
+                            <img src="assets/img/Home/img-Menu-third-content-1.jpg"
+                                class="img-Menu-third-content-1 card-img-top" alt="...">
+                            <div class="card-text-third-content">Giày Sandal nữ cao gót 5p phối xếp ly cực xinh trẻ
+                                trung, Giày quai
+                                hậu
+                                nữ xăng-đan mẫu mới cực dễ phối đồ</div>
+                            <div class="box-price">
+                                <div class="price">
+                                    <span class="_VND">₫</span>
+                                    <span class="_tien">109.000</span>
+                                </div>
+                                <div class="_soluong">Đã bán 100</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <div class="third-content-list-group-item">
+                        <div class="elem-Menu-3 card" style="width: 190px; height: 288px; ">
+                            <img src="assets/img/Home/img-Menu-third-content-1.jpg"
+                                class="img-Menu-third-content-1 card-img-top" alt="...">
+                            <div class="card-text-third-content">Giày Sandal nữ cao gót 5p phối xếp ly cực xinh trẻ
+                                trung, Giày quai
+                                hậu
+                                nữ xăng-đan mẫu mới cực dễ phối đồ</div>
+                            <div class="box-price">
+                                <div class="price">
+                                    <span class="_VND">₫</span>
+                                    <span class="_tien">109.000</span>
+                                </div>
+                                <div class="_soluong">Đã bán 100</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="home.html" style="text-decoration: none; color: black;">
+                    <div class="third-content-list-group-item">
+                        <div class="elem-Menu-3 card" style="width: 190px; height: 288px; ">
+                            <img src="assets/img/Home/img-Menu-third-content-1.jpg"
+                                class="img-Menu-third-content-1 card-img-top" alt="...">
+                            <div class="card-text-third-content">Giày Sandal nữ cao gót 5p phối xếp ly cực xinh trẻ
+                                trung, Giày quai
+                                hậu
+                                nữ xăng-đan mẫu mới cực dễ phối đồ</div>
+                            <div class="box-price">
+                                <div class="price">
+                                    <span class="_VND">₫</span>
+                                    <span class="_tien">109.000</span>
+                                </div>
+                                <div class="_soluong">Đã bán 100</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+
+        </div>
+
+
+
+        <!--Four content-->
+        <div class="four-content">
+            <div class="container">
+                <div class="row align-items-start">
+                    <div class="col">
+                        <h2>Chăm sóc khách hàng</h2>
+                        <p>Trung Tâm Trợ Giúp</p>
+                        <p>Shopee Blog</p>
+                        <p>Shopee Mall</p>
+                        <p>Hướng Dẫn Mua Hàng</p>
+                        <p>Hướng Dẫn Bán Hàng</p>
+                        <p>Thanh Toán</p>
+                        <p>Shopee Xu</p>
+                        <p>Vận Chuyển</p>
+                    </div>
+                    <div class="col">
+                        <h2>Về shopee</h2>
+                        <p>Giới Thiệu Về Shopee Việt Nam</p>
+                        <p>Tuyển Dụng</p>
+                        <p>Điều Khoản Shopee</p>
+                        <p>Chính Sách Bảo Mật</p>
+                        <p>Chính Hãng</p>
+                        <p>Kênh Người Bán</p>
+                        <p>Flash Sales</p>
+                        <p>Chương Trình Tiếp Thị Liên Kết Shopee</p>
+                    </div>
+                    <div class="col">
+                        <h2>Thanh Toán</h2>
+                        <img src="/assets/img/Goods/credit-card-brands-1.png" alt="" style="width: 40%;">
+                        <h2>Đơn vị vận chuyển</h2>
+                        <img src="/assets/img/Goods/delivery-card-brands-1.png" alt="" style="width: 40%">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Footer-->
+        <div class="footer">
+            <!--Star Footer-->
+            <div class="footer-begin">
+                <h3>CHÍNH SÁCH BẢO MẬT</h3>
+                <h3>QUY CHẾ HOẠT ĐỘNG</h3>
+                <h3>CHÍNH SÁCH VẬN CHUYỂN</h3>
+                <h3>CHÍNH SÁCH TRẢ HÀNG VÀ HOÀN TIỀN</h3>
+            </div>
+            <!--Footer Verify-->
+            <div class="footer-verify"></div>
+            <div class="footer-img">
+                <img src="/assets/img/Goods/logo-footer.png" alt="">
+                <img src="/assets/img/Goods/logo-footer.png" alt="">
+            </div>
+            <div class="footer-verify-h3">
+                <h3>Công ty TNHH Shopee</h3>
+            </div>
+            <div class="footer-content">
+                <h3>Địa chỉ: Tầng 4-5-6, Tòa nhà Capital Place, số 29 đường Liễu Giai, Phường Ngọc Khánh, Quận Ba Đình,
+                    Thành phố Hà Nội, Việt Nam. Tổng đài hỗ trợ: 19001221 - Email: cskh@hotro.shopee.vn</h3>
+                <h3>Chịu Trách Nhiệm Quản Lý Nội Dung: Nguyễn Đức Trí - Điện thoại liên hệ: 024 73081221 (ext 4678)</h3>
+                <h3>Mã số doanh nghiệp: 0106773786 do Sở Kế hoạch & Đầu tư TP Hà Nội cấp lần đầu ngày 10/02/2015</h3>
+                <h3>© 2015 - Bản quyền thuộc về Công ty TNHH Shopee</h3>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

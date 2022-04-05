@@ -8,6 +8,11 @@
     right: 0;
     z-index: 1;
 }
+.login{
+    display: flex;
+    position:relative;
+    left:600px;
+}
 .logo-header{
     margin-left: 82px;
     width: 70px;
@@ -41,7 +46,6 @@
     color:white;
     font-size: 20px;
 }
-
 /* css for Content */
 /* Menu first-content*/
 .content{
