@@ -5,8 +5,23 @@ var users = [
         permissions: "admin", 
     },
     {
+        username: "vithanhduc",
+        password: "123",
+        permissions: "admin", 
+    },
+    {
+        username: "tranbuitrunghieu",
+        password: "123",
+        permissions: "admin", 
+    },
+    {
         username: "khach1",
         password: "123456",
+        permissions: "guest",
+    },
+    {
+        username: "khach2",
+        password: "1234567",
         permissions: "guest",
     },
 ]
@@ -19,7 +34,7 @@ function Login() {
     var user = check_user(username, password, users);
     if (user) {
         if (user.permissions == "admin") {
-            window.location.href = "#";
+            window.location.href = "/admin/admin.html";
             
         } else {
             window.location.href = "home.html";

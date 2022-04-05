@@ -1,4 +1,6 @@
-
+html {
+    scroll-behavior: smooth;
+}
 .header{
     display: flex;
     margin-top: 20px;
