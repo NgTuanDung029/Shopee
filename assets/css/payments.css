@@ -1,0 +1,99 @@
+/* css for header */
+.search-header{
+    display:flex;
+    justify-items: center;
+    margin-bottom: 30px;
+}
+.icon-header{
+    margin-left: 95px;
+    display: flex;
+    align-items: center;
+}
+.text-header{
+    border-left: 2px solid #ee4d2d;
+    height:43px;
+    margin-left: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    line-height: 60px;
+    color:#ee4d2d;
+}
+.searchbar{
+    margin-left: 220px;
+}
+.searchbar-form-control{
+    margin-top: 10px;
+    width:540px;
+    height:40px;
+}
+.search-button-header{
+    color: white;
+    background-color: #e75205;
+    font-size: 25px;
+    margin-top: 5px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+/* css for content */
+.content{
+    margin-top: 30px;
+    background-color: whitesmoke;
+}
+/* advertiserments */
+.ads{
+    background-color: #fffefb;
+    border: 1px solid rgba(224,168,0,.4);
+    padding: 0.75rem 1rem;
+    margin-bottom: 30px;
+}
+/* css for btn san pham */
+.goods{
+    display:flex;
+    align-items: center;
+    height: 55px;
+    background-color: white;
+    margin-bottom: 12px;
+    padding: 0 20px;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.box-btn{
+    margin-right: 8px;
+}
+.text1-goods{
+    color: rgba(0,0,0,.8);
+    width:40%;
+}
+.text2-goods{
+    width: 15.88022%;
+    text-align: center;
+}
+.text3-goods{
+    width: 15.4265%;
+    text-align: center;
+}
+.text4-goods{
+    width: 10.43557%;
+    text-align: center;
+}
+.text5-goods{
+    width: 12.70417%;
+    text-align: center;
+}
+/* goods2 */
+.goods-2{
+    display:flex;
+    align-items: center;
+    height: 55px;
+    background-color: white;
+    margin-bottom: 12px;
+    padding: 0 20px;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.text2-goods{
+    width:300px;
+}
