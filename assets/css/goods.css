@@ -191,9 +191,12 @@ input {
 .delivery .btn-increment-and-decrement{
     margin-left: 40px
 }
-.delivery button, input{
+.delivery  input{
     /* Green */
     border: none;
+}
+.delivery #add, #subtract{
+    padding-right: 15px;
 }
 .buy button{
     background-color: orangered;
