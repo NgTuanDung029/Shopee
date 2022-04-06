@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 <body>
@@ -21,8 +23,9 @@
             <div class="text-header">Giỏ Hàng</div>
         </div>
         <div class="searchbar nav-item">
-            <input class=" searchbar-form-control me-2 " type="search" placeholder="QUÀ 20 TRIỆU" aria-label="Search">
-            <i class="search-button-header fas fa-search-location"></i>
+            <input class=" searchbar-form-control me-2 " style="border: 2.5px solid red;" type="search"
+                placeholder="QUÀ 20 TRIỆU" aria-label="Search">
+                <i class="fa-solid fa-magnifying-glass" style="color: red;"></i>
         </div>
     </div>
     <!-- Content -->
@@ -34,7 +37,8 @@
         </div>
 
         <!-- btn san pham -->
-        <div class="goods">
+        <!-- checkbox-1 -->
+        <div class="check">
             <label class="box-btn">
                 <input class="stardust-checkbox__input" type="checkbox">
             </label>
@@ -44,17 +48,182 @@
             <div class="text4-goods">Số tiền</div>
             <div class="text5-goods">Thao tác</div>
         </div>
-        <div class="goods-2">
-            <label class="box-btn">
-                <input class="stardust-checkbox__input" type="checkbox">
+        <!-- checkbox-2 -->
+        <div class="check2-container">
+            <div class="check-2">
+                <label class="box-btn">
+                    <input class="stardust-checkbox__input" type="checkbox">
+                </label>
+                <div class="text2-goods">
+                    <span style="margin-left: 10px;">La Roche-Posay Chính Hãng</span>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                </div>
+            </div>
+            <!-- checkbox-3 -->
+            <div class="check-3">
+                <div class="deal">
+                    <span class="text-deal-1">Deal Sốc</span>
+                    <span class="text-deal-2">Mua kèm deal độc quyền</span>
+                    <a href="" style="text-decoration: none; color:red"> <span class="extra" style="color: red;">
+                            Thêm >
+                        </span>
+                    </a>
+                </div>
+                <div class="goods">
+                    <label class="box-btn-goods">
+                        <input class="stardust-checkbox__input" type="checkbox">
+                    </label>
+                    <a src="goods.html" style="display:flex;">
+                        <div class="box-goods">
+                            <img src="assets/img/Payments/goods-checkbox3.png" alt="">
+                        </div>
+                        <div class="box-text-goods">
+                            <span class="text-checkbox-3">
+                                [Mã COSAC44 giảm 10% đơn 600K] Bộ sản phẩm làm sạch da toàn diện La Roche-Posay
+                            </span>
+                            <img src="assets/img/Payments/img-text-checkbox3.png" class="img-goods-checkbox3" alt="">
+                            <div class="box-text-goods-2">
+                                <img src="assets/img/Payments/img-text-checkbox3-1.png" alt="">
+                                <span class="text-checkbox-3-2">
+                                    7 Ngày Miễn Phí Trả Hàng
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="space" style="width:210px;"></div>
+                    <div class="price-checkbox-3">
+                        <span class="price-checkbox-3-1">₫1.025.000</span>
+                        <span class="price-checkbox-3-2">₫968.000</span>
+                    </div>
+                    <div class="delivery">
+                        <div class="btn-increment-and-decrement">
+                            <button id="subtract">-</button>
+                            <input style="width:30px; margin-left: 5px;" class="incre-and-decre" type="number"
+                                value="1">
+                            <button id="add">+</button>
+                        </div>
+                    </div>
+                    <div class="payment">
+                        <span class="payment">₫968.000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- checkbox-4 -->
+        <div class="checkbox-4">
+            <label class="box-btn-checkbox-4">
+                <i class="fa-solid fa-ticket" style="color: #ee4d2d;"></i>
             </label>
-            <div class="text2-goods">
-                <span style="margin-left: 10px;">La Roche-Posay Chính Hãng</span>
-                <i class="fa-solid fa-basket-shopping"></i>
+            <div class="text-checkbox-4">Shop Voucher giảm đến ₫45k</div>
+            <div class="text-checkbox-4-1">Xem thêm voucher</div>
+            <div class="text-checkbox-4-2">Mới</div>
+        </div>
+
+        <div class="checkbox-4">
+            <label class="box-btn-checkbox-4">
+                <i class="fa-solid fa-truck-moving" style="color: blue;"></i>
+            </label>
+            <div class="text-checkbox-4">Giảm ₫25.000 phí vận chuyển đơn tối thiểu ₫50.000</div>
+            <div class="text-checkbox-4-1">Tìm hiểu thêm</div>
+        </div>
+
+        <div class="checkbox-5">
+            <div class="row-1-checkbox-5">
+                <div style="width: 700px;"></div>
+                <label class="box-btn-checkbox-4">
+                    <i class="fa-solid fa-ticket" style="color: #ee4d2d;"></i>
+                </label>
+                <div class="text-checkbox-5">Shopee Voucher</div>
+                <span class="text-checkbox-5-1">Áp dụng mã giảm giá ngay!</span>
+            </div>
+            <div class="row-2-checkbox-5">
+                <div style="width: 620px;"></div>
+                <label class="box-btn-checkbox-4">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" disabled>
+                </label>
+                <i class="fa-solid fa-dollar-sign" style="opacity: .2"></i>
+                <div class="text-checkbox-5-2">Shopee Xu</div>
+                <div class="text-checkbox-5-3">Bạn chưa có Shopee Xu</div>
+                <i class="fa-solid fa-circle-question" style="opacity: .5;"></i>
+                <div class="text-checkbox-5-3-1" style="margin-left:120px; opacity: .2;">- ₫0</div>
+            </div>
+            <div class="row-3-checkbox-5">
+                <label class="box-btn-checkbox-5">
+                    <input class="stardust-checkbox__input" type="checkbox">
+                </label>
+                <button class=" clear-btn-style" style="border:0; background:0;">Chọn tất cả (1)</button>
+                <button class="clear-btn-style" style="border:0; background:0;">Xóa</button>
+                <button class="clear-btn-style " style="border:0; background:0; color: #ee4d2d;">Lưu vào mục Đã thích</button>
+                <div style="width:280px;"></div>
+                <div class="counter">
+                    <div class="text-checkbox-5-4">Tổng thanh toán (0 Sản phẩm):</div>
+                    <div class="text-checkbox-5-5">₫0</div>
+                </div>
+                <button class="box-btn-buy"><span class="btn-buy">Mua hàng</span></button>
             </div>
         </div>
     </div>
 
+    <!--Footer-->
+    <div class="four-content">
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col">
+                    <h2>Chăm sóc khách hàng</h2>
+                    <p>Trung Tâm Trợ Giúp</p>
+                    <p>Shopee Blog</p>
+                    <p>Shopee Mall</p>
+                    <p>Hướng Dẫn Mua Hàng</p>
+                    <p>Hướng Dẫn Bán Hàng</p>
+                    <p>Thanh Toán</p>
+                    <p>Shopee Xu</p>
+                    <p>Vận Chuyển</p>
+                </div>
+                <div class="col">
+                    <h2>Về shopee</h2>
+                    <p>Giới Thiệu Về Shopee Việt Nam</p>
+                    <p>Tuyển Dụng</p>
+                    <p>Điều Khoản Shopee</p>
+                    <p>Chính Sách Bảo Mật</p>
+                    <p>Chính Hãng</p>
+                    <p>Kênh Người Bán</p>
+                    <p>Flash Sales</p>
+                    <p>Chương Trình Tiếp Thị Liên Kết Shopee</p>
+                </div>
+                <div class="col">
+                    <h2>Thanh Toán</h2>
+                    <img src="/assets/img/Goods/credit-card-brands-1.png" alt="" style="width: 40%;">
+                    <h2>Đơn vị vận chuyển</h2>
+                    <img src="/assets/img/Goods/delivery-card-brands-1.png" alt="" style="width: 40%">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <!--Star Footer-->
+        <div class="footer-begin">
+            <h3>CHÍNH SÁCH BẢO MẬT</h3>
+            <h3>QUY CHẾ HOẠT ĐỘNG</h3>
+            <h3>CHÍNH SÁCH VẬN CHUYỂN</h3>
+            <h3>CHÍNH SÁCH TRẢ HÀNG VÀ HOÀN TIỀN</h3>
+        </div>
+        <!--Footer Verify-->
+        <div class="footer-verify"></div>
+        <div class="footer-img">
+            <img src="/assets/img/Goods/logo-footer.png" alt="">
+            <img src="/assets/img/Goods/logo-footer.png" alt="">
+        </div>
+        <div class="footer-verify-h3">
+            <h3>Công ty TNHH Shopee</h3>
+        </div>
+        <div class="footer-content">
+            <h3>Địa chỉ: Tầng 4-5-6, Tòa nhà Capital Place, số 29 đường Liễu Giai, Phường Ngọc Khánh, Quận Ba Đình,
+                Thành phố Hà Nội, Việt Nam. Tổng đài hỗ trợ: 19001221 - Email: cskh@hotro.shopee.vn</h3>
+            <h3>Chịu Trách Nhiệm Quản Lý Nội Dung: Nguyễn Đức Trí - Điện thoại liên hệ: 024 73081221 (ext 4678)</h3>
+            <h3>Mã số doanh nghiệp: 0106773786 do Sở Kế hoạch & Đầu tư TP Hà Nội cấp lần đầu ngày 10/02/2015</h3>
+            <h3>© 2015 - Bản quyền thuộc về Công ty TNHH Shopee</h3>
+        </div>
+    </div>
 </body>
 
 </html>

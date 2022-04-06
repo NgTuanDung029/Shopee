@@ -26,14 +26,6 @@
     width:540px;
     height:40px;
 }
-.search-button-header{
-    color: white;
-    background-color: #e75205;
-    font-size: 25px;
-    margin-top: 5px;
-    cursor: pointer;
-    padding-left: 10px;
-}
 
 /* css for content */
 .content{
@@ -45,10 +37,15 @@
     background-color: #fffefb;
     border: 1px solid rgba(224,168,0,.4);
     padding: 0.75rem 1rem;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    width:1200px;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 /* css for btn san pham */
-.goods{
+/* checkbox-1 */
+.check{
     display:flex;
     align-items: center;
     height: 55px;
@@ -82,18 +79,206 @@
     width: 12.70417%;
     text-align: center;
 }
-/* goods2 */
-.goods-2{
-    display:flex;
-    align-items: center;
-    height: 55px;
+/* checkbox-2 */
+.check2-container{
     background-color: white;
-    margin-bottom: 12px;
-    padding: 0 20px;
     width: 1200px;
+    align-items: center;
     margin-right: auto;
     margin-left: auto;
 }
+.check-2{
+    display:flex;
+    align-items: center;
+    height: 55px;
+    margin-bottom: 12px;
+    padding: 0 20px;
+}
 .text2-goods{
     width:300px;
+}
+/* checkbox-3 */
+.deal{
+    padding: 9px 12px;
+    background: #fff3ed;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0,0,0,.87);
+}
+.text-deal-1{
+    padding: 1px 4px;
+    margin-right: 8px;
+    line-height: 12px;
+    vertical-align: middle;
+    color: #ee4d2d;
+    font-size: 10px;
+    border: 1px solid;
+    border-radius: 2px;
+    font-weight: 400;
+}
+.goods{
+    display:flex;
+    align-items: center;
+}
+.box-btn-goods{
+    padding: 0 12px 0 20px;
+}
+.box-text-goods{
+    width:240px;
+}
+.img-goods-checkbox3{
+    height:18px;
+    width:180px;
+}
+.text-checkbox-3{
+    text-decoration: none;
+    color: rgba(0,0,0,.87);
+    display: block;
+    margin-bottom: 5px;
+    max-height: 32px;
+    text-overflow: ellipsis;
+    overflow:hidden ;
+    font-size: 12px;
+    width:200px;
+}
+.price-checkbox-3{
+    margin-right: 10px;
+}
+.price-checkbox-3-1{
+    color: rgba(0,0,0,.54);
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+.payment{
+    margin-left: 20px;
+}
+.delivery button,input{
+    border: none;
+}
+/* checkbox-4 */
+.checkbox-4{
+    margin-top: 10px;
+    width:1200px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    padding: 1rem 0 1rem 0rem;
+}
+.box-btn-checkbox-4{
+    padding: 0 12px 0 20px;
+}
+.text-checkbox-4{
+    color: rgba(0,0,0,.87);
+    margin-left:20px;
+}
+.text-checkbox-4-1{
+    margin-left: 30px;
+    white-space: nowrap;
+    color: #05a;
+}
+.text-checkbox-4-2{
+    margin-left: 5px;
+    background-color: #ee4d2d;
+    color: #fff;
+    padding: 0.125rem 0.25rem;
+    margin: 0 0.1875rem 0 0.25rem;
+    font-size: .75rem;
+    border-radius: 1px;
+}
+/* checkbox-5 */
+.checkbox-5{
+    margin-top: 20px;
+    background-color: white;
+    width: 1200px;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    position: sticky;
+    bottom: 0;
+}
+.row-1-checkbox-5{
+    display:flex;
+    padding: 1rem 0 1rem 0rem;
+}
+.text-checkbox-5-1{
+    margin-left: 120px;
+    color: #ee4d2d;
+    font-size: 15px;
+}
+.row-2-checkbox-5{
+    display:flex;
+    padding: 1rem 0 1rem 0rem;
+    border-top: .4px dashed black;
+    border-bottom: .4px dashed black;
+}
+ .text-checkbox-5-2{
+    opacity: .2;
+}
+.text-checkbox-5-3{
+    margin-left: 30px;
+    margin-right: 8px;
+    opacity: .5;
+}
+.row-3-checkbox-5{
+    display:flex;
+    padding: 1rem 0 1rem 0rem;
+}
+.box-btn-checkbox-5{
+    padding: 0 12px 0 20px;
+}
+.counter{
+    display: flex;
+}
+.text-checkbox-5-4{
+    margin-right: 8px;
+}
+.text-checkbox-5-5{
+    font-size: 22px;
+    color: #ee4d2d;
+    line-height: 24px;
+}
+.box-btn-buy{
+    width:200px;
+    background: rgb(238, 77, 45);
+    margin-left:30px;
+}
+/* footer */
+.footer{
+    background-color: #f5f5f5;
+}
+.footer h3{
+    font-size: 12px;
+    line-height: 15px;
+    margin: 15px;
+    text-decoration: none solid rgba(0,0,0,0,0,54);
+    font-weight: 400;
+}
+.footer-begin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .footer-begin h3{
+    font-size: 12px;
+    line-height: 15px;
+    margin: 30px;
+    text-decoration: none solid rgba(0,0,0,0,0,54);
+} */
+.footer-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-img img{
+    width: 10%;
+}
+.footer-verify-h3 h3{
+    justify-content: center;
+    text-align: center;
+}
+.footer-content {
+    text-align: center;
+    justify-content: center;
 }
