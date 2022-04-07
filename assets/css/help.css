@@ -84,17 +84,23 @@
     border: 1px solid #b1154a;
     height: 50px;
     width: 200px;
-    display: inline-flex;
+    display: flex;
+    align-items: center;
 }
 .mini-contact{
     display: flex;
 }
-.us i{
-    vertical-align: middle;
-}
-.us h5{
-    height: 10px;
+.we{
+    border: 1px solid #b1154a;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
 }
 .text-email{
-    padding-top: 5px;
+    margin-left: 10px;
+}
+.text-phone{
+    margin-left: 10px;
 }
