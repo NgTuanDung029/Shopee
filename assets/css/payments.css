@@ -5,11 +5,13 @@
     margin-bottom: 30px;
 }
 .icon-header{
+    margin-top: 15px;
     margin-left: 95px;
     display: flex;
     align-items: center;
 }
 .text-header{
+    margin-top: 5px;
     border-left: 2px solid #ee4d2d;
     height:43px;
     margin-left: 10px;
@@ -19,6 +21,7 @@
     color:#ee4d2d;
 }
 .searchbar{
+    margin-top: 35px;
     margin-left: 220px;
 }
 .searchbar-form-control{
@@ -281,4 +284,31 @@
 .footer-content {
     text-align: center;
     justify-content: center;
+}
+
+@media screen and (max-width: 768px){
+    .search-header{
+        display:flex;
+        justify-items: center;
+        margin-bottom: 30px;
+    }
+    .icon-header{
+        margin-top: 15px;
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .text-header{
+        border-left: 2px solid #ee4d2d;
+        height:25px;
+        margin-left: 10px;
+        padding-left: 10px;
+        font-size: 15px;
+        line-height: 20px;
+        color:#ee4d2d;
+    }
+    .searchbar{
+        display: none;
+        margin-left: 220px;
+    }
 }
