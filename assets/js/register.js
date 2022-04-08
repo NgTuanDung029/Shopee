@@ -6,9 +6,22 @@ var btnRegister = document.querySelector(".btn-Register");
 
 btnRegister.addEventListener("click", checkPassword);
 
+const rexEmail = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+const email = document.querySelector(".email");
+
+email.addEventListener("blur", function () {
+    if (rexEmail.test(email.value)) {
+        registerError.textContent = "";
+    } else {
+        registerError.textContent = "Email không hợp lệ";
+    }
+})
+
 function checkPassword(){
-    console.log("test")
+    // console.log("test")
     if (password.value != confirmPwd.value) {
         registerError.textContent = "Mật khẩu không trùng khớp. Hãy nhập lại";
+    } else{
+        registerError.textContent = "";
     }
 }

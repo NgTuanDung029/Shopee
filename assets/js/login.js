@@ -1,32 +1,48 @@
 var users = [
     {
-        username: "nguyentuandung",
+        username: "nguyentuandung@gmail.com",
         password: "020902",
         permissions: "admin", 
     },
     {
-        username: "vithanhduc",
+        username: "vithanhduc@gmail.com",
+        password: "viducdz",
+        permissions: "admin", 
+    },
+    {
+        username: "tranbuitrunghieu@gmail.com",
         password: "123",
         permissions: "admin", 
     },
     {
-        username: "tranbuitrunghieu",
-        password: "123",
-        permissions: "admin", 
-    },
-    {
-        username: "khach1",
+        username: "khach1@gmail.com",
         password: "123456",
         permissions: "guest",
     },
     {
-        username: "khach2",
+        username: "khach2@gmail.com",
         password: "1234567",
         permissions: "guest",
     },
 ]
 
+
+
 var loginError = document.querySelector(".loginError");
+
+//check Email
+const rexEmail = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+const email = document.querySelector(".email");
+
+email.addEventListener("blur", function () {
+    if (rexEmail.test(email.value)) {
+        loginError.innerHTML = "";
+    } else {
+        loginError.innerHTML = "Email không hợp lệ";
+    }
+})
+
+//check login
 function Login() {
     event.preventDefault();
     var username = document.getElementById("name").value;
