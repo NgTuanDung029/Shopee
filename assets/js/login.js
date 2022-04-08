@@ -6,7 +6,7 @@ var users = [
     },
     {
         username: "vithanhduc@gmail.com",
-        password: "viducdz",
+        password: "vladimirilyricduc",
         permissions: "admin", 
     },
     {
