@@ -104,3 +104,44 @@
 .text-phone{
     margin-left: 10px;
 }
+
+.footer-text{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    }
+    .icon-footer img{
+        height: 27px;
+    width: 27px;
+    margin: 0 8px 0 8px;
+    }
+    .left-footer{
+        display: flex;
+    }
+    .icon-footer{
+        display: flex;
+    }
+    .link{
+        display: flex;
+        margin: 0 8px 0 8px;
+        height: 27px;
+    width: 471.4px;
+    }
+    .link-text{
+        margin-left: 10px;
+    
+    
+    }
+    .link-text a{
+        text-decoration: none;
+        color: #000;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+        
+    }
+    .link-text a:hover{
+        text-decoration:  underline solid #000;
+    }
