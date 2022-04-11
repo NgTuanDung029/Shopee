@@ -301,3 +301,22 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+@media screen and (max-width: 768px){
+    .icon-header{
+        margin-left: 1px;
+    }
+    .text-header{
+        font-size: 20px;
+        
+    }
+    .searchbar{
+        display: none;
+    }
+    .text-ads{
+        font-size: 12px;
+    }
+    .text-checkbox-4{
+        font-size: 12px;
+    }
+}
