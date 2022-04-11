@@ -8,6 +8,8 @@ const c=document.querySelector('.text-checkbox-5-5');
 const quantity=document.querySelector('.quantity');
 sum=0;
 let a=payment;
+
+// js cho nut tang giam, tinh tien
 btnAdd.addEventListener('click', () => {
     increAndDecre.value = parseInt(increAndDecre.value) + 1;
     sum=a*increAndDecre.value;
@@ -35,5 +37,10 @@ btnSubtract.addEventListener('click', () => {
     }
 });
 
-
+// js cho nut mua hang
+const btnbuy=document.querySelector('.btn-buy');
+const notify=document.querySelector('.notify');
+btnbuy=addEventListener('click',()=>{
+    notify.innerHTML='Mua hàng thành công';
+})
 
