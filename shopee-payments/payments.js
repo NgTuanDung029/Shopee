@@ -40,7 +40,7 @@ btnSubtract.addEventListener('click', () => {
 // js cho nut mua hang
 const btnbuy=document.querySelector('.btn-buy');
 const notify=document.querySelector('.notify');
-btnbuy=addEventListener('click',()=>{
+btnbuy.addEventListener('click',()=>{
     notify.innerHTML='Mua hàng thành công';
 })
 
