@@ -10,6 +10,7 @@
 }
 .logo h1 {
     font-size: 21px;
+    line-height: 19,5px;
     margin: 0px 10px;
     color: #ff5722;
     font-family: Arial, Helvetica, sans-serif;
@@ -20,7 +21,8 @@
     padding-left: 10px;
     border-left: 2px solid #ff5722;
     color: #ff5722;
-    font-weight: 1000;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .banner {
     background-color: #ff5722;
@@ -32,32 +34,43 @@
     margin: auto;
 }
 .box {
-    max-width: 1280px;
+    max-width: 1400px;
     margin: auto;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px 20px;
 }
 .left-option {
-    width: 25%;
-    margin-left: -70px;
+    width: 30%;
+    /* margin-left: -70px; */
+    margin-top: 30px;
 }
 .right-content {
-    flex: 1;
-    margin-right: 100px;
+    width: 70%;
+    padding-right: 100px;
     padding-top: 50px;
 }
 .form h2 {
     color :#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 59,4px;
 }
 .form{
     text-align: center;
     font-size: 40px;
 }
 .search{
-    width: 1000px;
+    max-width: 1000px;
+    width: 75%;
     height: 50px;
     border-radius: 5px;
     font-size: 20px;
+    border: 3px solid #ff5722;
+    padding: 0px 15px;
+    outline: none;
 }
 .left-option h2{
     font-family:'Times New Roman';
@@ -81,28 +94,33 @@
     padding-top: 40px;
 }
 .us{
-    border: 1px solid #b1154a;
+    border: 1px solid #D3D3D3;
     height: 50px;
     width: 200px;
     display: flex;
     align-items: center;
+    padding: 10px;
 }
 .mini-contact{
     display: flex;
 }
 .we{
-    border: 1px solid #b1154a;
+    border: 1px solid #d3d3d3;
     height: 50px;
     width: 200px;
     display: flex;
     align-items: center;
     margin-left: 10px;
+    padding: 10px;
 }
 .text-email{
     margin-left: 10px;
 }
 .text-phone{
     margin-left: 10px;
+}
+ul {
+    padding-left: 0px;
 }
 
 .footer-text{
@@ -144,4 +162,37 @@
     }
     .link-text a:hover{
         text-decoration:  underline solid #000;
+    }
+    .container{
+        margin-top: 50px;
+    }
+    .my-container {
+        margin: auto;
+        max-width: 1200px;
+    }
+
+    @media (max-width:992px) {
+        .left-option {
+            width: 100%;
+        }
+        .right-content {
+            width: 100%;
+            padding-right: 0px;
+        }
+    }
+    @media (max-width:400px) {
+        .mini-contact {
+            flex-wrap: wrap;
+        }
+        .us, .we {
+            width: 100%;
+            margin: 10px 0px;
+        }
+        .left-footer {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .icon-footer {
+            margin-bottom: 10px;
+        }
     }
