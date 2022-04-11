@@ -50,10 +50,10 @@ function Login() {
     var user = check_user(username, password, users);
     if (user) {
         if (user.permissions == "admin") {
-            window.location.href = "/admin/admin.html";
+            window.location.href = "/shopee-admin/admin.html";
             
         } else {
-            window.location.href = "home.html";
+            window.location.href = "/shopee-home/home.html";
         }
     } else {
         loginError.innerHTML = "Tài khoản hoặc mật khẩu không đúng";
