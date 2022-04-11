@@ -211,6 +211,10 @@ input {
     margin-top: 30px;
     margin-left: 100px;
 }
+.buy button a{
+    color: white;
+    text-decoration: none;
+}
 .buy button:hover{
     background-color: #d15e47;
 }

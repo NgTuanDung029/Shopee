@@ -16,31 +16,24 @@ var goods = [
     },
     {
         id: 3,
-        name: "Tai nghe chó",
+        name: "Robot hút bụi Xiaomi",
         price: "1.000.000",
         amount: "10",
-        description: "Tai nghe hình mèo dễ thương",
+        description: "- Thiết kế nhỏ gọn, màu trắng tinh tế có thể vượt vật cản lên tới 2 cm, di chuyển khéo léo giúp làm sạch hiệu quả. Vừa hút vừa lau nhà tiện dụng. ",
     },
     {
         id: 4,
-        name: "Tai nghe trâu",
+        name: "Giày Jordan 1 High Panda, Giày Thể Thao JD1 Cao Cổ Màu Đen, Da Bò Cao Cấp Full Size Nam Nữ | JDD002",
         price: "1.000.000",
         amount: "10",
-        description: "Tai nghe hình mèo dễ thương",
-    },
+        description: "Giày Jordan 1 High Panda, Giày Thể Thao JD1 Cao Cổ Màu Đen, Da Bò Cao Cấp Full Size Nam Nữ kiểu dáng hiện đai",
+    }, 
     {
         id: 5,
-        name: "Tai nghe bò",
+        name: "Nhiệt Kế Microlife Hồng Ngoại Đo Trán FR1MF1 Thụy Sỹ",
         price: "1.000.000",
         amount: "10",
-        description: "Tai nghe hình mèo dễ thương",
-    },
-    {
-        id: 6,
-        name: "Tai nghe gà",
-        price: "1.000.000",
-        amount: "10",
-        description: "Tai nghe hình mèo dễ thương",
+        description: "Dải đo (chế độ đo nhiệt độ cơ thể): 32.0℃~42.5℃/89.6℉~108.5℉.",
     },
 ]
 function renderGoods() {
